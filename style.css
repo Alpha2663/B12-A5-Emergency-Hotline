@@ -1,6 +1,4 @@
-/* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
-/* tailwind css  */
 @import "tailwindcss";
 *{
      font-family: "Hind Madurai", sans-serif;

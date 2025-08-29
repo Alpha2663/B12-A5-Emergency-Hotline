@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Services</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
@@ -280,26 +281,15 @@
                             </button>
                         </div>
                     </div>
-    
-    
-    
             </section>
-            <!-- history section // -->
             <section class="md:col-span-3 w-full bg-white shadow p-5 rounded-xl">
                 <div class="flex justify-between items-center">
                     <div class="flex">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-history-icon lucide-history">
-                                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-                                <path d="M3 3v5h5" />
-                                <path d="M12 7v5l4 2" />
-                            </svg>
-                        </div>
-                        <h2> Call History</h2>
+                        <h2><i class="fa-regular fa-clock"></i> Call History</h2>
                     </div>
-                    <div id="call_history" class="grid grid-cols-1"></div>
+                    <div id="call_history" class="grid grid-cols-1">
+                        <button class="text-white bg-green-600 w-14 h-10 rounded-xl ">Clear</button>
+                    </div>
             </section>
         </main>
         <script src="./script.js"></script>
